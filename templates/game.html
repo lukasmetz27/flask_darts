@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block head %}
+
+{% endblock %}
+
+
+
+
+{% block body %}
+<h1> Players: {{ list.0 }}</h1>
+
+ <h4> How many points?</h4>
+    <form action = "/game/" method="POST">
+        <input type ="number" name="number">
+        <input type ="submit" value ="confirm">
+    </form>
+
+
+
+
+{% endblock %}
